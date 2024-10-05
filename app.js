@@ -4,7 +4,7 @@ let detail = document.querySelector("#movie-details")
 btn.addEventListener("click",()=>{
     let title = input.value
     console.log(title)
-    fetch(`http://www.omdbapi.com/?apikey=ceaf13c4&t=${title}`)
+    fetch(`https://www.omdbapi.com/?apikey=ceaf13c4&t=${title}`)
     .then(response => response.json())
     .then((data)=>{
         if(data.Response==="True"){
