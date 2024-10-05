@@ -54,3 +54,22 @@ h1{
     gap: 10px;
 
 }
+
+.end i{
+    color: red;
+}
+.end{
+    position:fixed;
+    font-size: 12px;
+    font-weight: 700;
+    bottom: 5px;
+    
+}
+
+@media (max-width:600px){
+    .end{
+        position:absolute;
+        top: 70px;
+        left: 170px;
+    }
+}
